@@ -2,9 +2,9 @@
 Learn AC by Emanuel Carvalho - eprincip@uoguelph.ca
 Project Implementation for CIS*6120
 
--To execute the program, give the name of the dataset file as argument.
+# To execute the program, give the name of the dataset file as argument.
 
--Input details
+## Input details
 The inputfile must have a header paragraph consisting of 4 integers
 separated by spaces or tabs:
 r c ke kp
@@ -14,7 +14,7 @@ ke is the edge penalty, must be positive.
 kp is the parameter penalty, must also be positive.
 The following lines are the data matrix, consisting of only 0 and 1.
 
--Execution and Output details
+## Execution and Output details
 The program will generate the marginal distributions for each variable.
 An output with the same name of the input file will be generated with the
 .marg extension, the first column corresponds to the value 0 and the
